@@ -1,0 +1,8 @@
+questions="What is the history of Dougga?,Where is Bulla Regia located?,Tell me about the Sbeitla archaeological site,What is the delegation of El Jem?,Which source is used for the site of Kerkouane?,What are the key features of the Roman theater in Dougga?,What is the archaeological significance of El Jem?,Where can I find Kerkouane?,What is the historical importance of Bulla Regia?"
+
+
+question=questions.split(",")
+f=open("questions.txt","w",encoding="utf-8")
+for q in question:
+    f.write(q+"\n")
+f.close()
